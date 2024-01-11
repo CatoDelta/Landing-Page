@@ -33,7 +33,7 @@ ul {
     list-style-type: none;
     display: flex;
     gap: 30px;
-    font-family: 
+    font-family:'Courier New', Courier, monospace;
     font-size: 18px;
 }
 
@@ -90,4 +90,32 @@ button {
     justify-content: flex-end;
     align-items: flex-end;
     width: 80%;   
+}
+
+.content-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px;
+}
+
+.boxtext {
+    display: flex;
+    flex-direction: column;
+    align-items: space-between;
+    font-size: 18px;
+    width: 200px;
+    text-align: center;
+    }
+
+.pics {
+    display: flex;
+    justify-content: space-between;
+}
+
+.box {
+    width: 190px;
+    height: 190px;
+    border: 5px solid #3882F6;
+    border-radius: 10px;    
 }
